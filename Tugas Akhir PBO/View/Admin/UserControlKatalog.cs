@@ -19,8 +19,8 @@ namespace Tugas_Akhir_PBO.View
         UserControlStok stokControl;
         UserControlTransaksi transaksiControl;
         UserControlDashboard dashboardControl;
-
         FlowLayoutPanel panelKatalog;
+
         public UserControlKatalog(LandingPage FormParent, UserControlStok stokControl, UserControlTransaksi transaksiControl, UserControlDashboard dashboardControl)
         {
             InitializeComponent();

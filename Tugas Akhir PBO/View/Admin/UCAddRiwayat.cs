@@ -95,7 +95,7 @@ namespace Tugas_Akhir_PBO.View.Admin
 
                         UCStok.LoadKatalog();
 
-                        MessageBox.Show($"Status transaksi dengan ID {idTransaksi} berhasil diperbarui menjadi 'Selesai', dan stok produk diperbarui.", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show($"Status transaksi dengan ID {idTransaksi} telah Selesai.", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                     else
                     {
